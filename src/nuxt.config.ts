@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-icon',
   ],
-  tailwindcss: [
+  css: [
     '~/assets/css/appbase.css',
   ],
 })
