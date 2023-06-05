@@ -21,6 +21,7 @@
     "@oruga-ui/oruga-next": "^0.6.0",
     "@pinia/nuxt": "^0.4.11",
     "flowbite": "^1.6.5",
+    "nanoid": "^4.0.2",
     "pinia": "^2.1.3"
   }
 }
