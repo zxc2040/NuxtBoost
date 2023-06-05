@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import colors from 'tailwindcss/colors';
+
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -9,7 +11,11 @@ module.exports = {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: colors.blue,
+      }
+    },
   },
   plugins: [
     require('flowbite')
