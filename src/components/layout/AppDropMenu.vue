@@ -17,63 +17,13 @@
       Apps
     </div>
     <div class="grid grid-cols-3 gap-4 p-4">
-      <a href="#"
-        class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
-        <Icon aria-hidden="true"
-          class="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
-          name="mdi:shopping"></Icon>
-        <div class="text-sm text-gray-900 dark:text-white">Sales</div>
-      </a>
-      <a href="#"
-        class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
-        <Icon aria-hidden="true"
-          class="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
-          name="mdi:account-group"></Icon>
-        <div class="text-sm text-gray-900 dark:text-white">Users</div>
-      </a>
-      <a href="#"
-        class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
-        <Icon aria-hidden="true"
-          class="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
-          name="mdi:inbox"></Icon>
-        <div class="text-sm text-gray-900 dark:text-white">Inbox</div>
-      </a>
-      <a href="#"
-        class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
-        <Icon aria-hidden="true"
-          class="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
-          name="mdi:account-circle"></Icon>
-        <div class="text-sm text-gray-900 dark:text-white">
-          Profile
-        </div>
-      </a>
-      <a href="#"
-        class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
-        <Icon aria-hidden="true"
-          class="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
-          name="mdi:cog"></Icon>
-        <div class="text-sm text-gray-900 dark:text-white">
-          Settings
-        </div>
-      </a>
-      <a href="#"
-        class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
-        <Icon aria-hidden="true"
-          class="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
-          name="mdi:file-percent"></Icon>
-        <div class="text-sm text-gray-900 dark:text-white">
-          Billing
-        </div>
-      </a>
-      <a href="#"
-        class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
-        <Icon aria-hidden="true"
-          class="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
-          name="mdi:logout-variant"></Icon>
-        <div class="text-sm text-gray-900 dark:text-white">
-          Logout
-        </div>
-      </a>
+      <LayoutAppDropMenuItem icon-name="mdi:shopping">Sales</LayoutAppDropMenuItem>
+      <LayoutAppDropMenuItem icon-name="mdi:account-group">Users</LayoutAppDropMenuItem>
+      <LayoutAppDropMenuItem icon-name="mdi:inbox">Inbox</LayoutAppDropMenuItem>
+      <LayoutAppDropMenuItem icon-name="mdi:account-circle">Profile</LayoutAppDropMenuItem>
+      <LayoutAppDropMenuItem icon-name="mdi:cog">Settings</LayoutAppDropMenuItem>
+      <LayoutAppDropMenuItem icon-name="mdi:file-percent">Billing</LayoutAppDropMenuItem>
+      <LayoutAppDropMenuItem icon-name="mdi:logout-variant">Logout</LayoutAppDropMenuItem>
     </div>
   </div>
 </template>
