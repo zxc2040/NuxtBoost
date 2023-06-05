@@ -59,5 +59,7 @@
       <slot></slot>
 
     </main>
+
+    <span class="hidden o-btn o-btn--primary">Just for maintain CSS in components.</span>
   </div>
 </template>
