@@ -26,5 +26,5 @@
 </template>
 
 <script setup lang="ts">
-const props = withDefaults(defineProps<{ mobile: boolean }>(), { mobile: false });
+const props = withDefaults(defineProps<{ mobile?: boolean }>(), { mobile: false });
 </script>
