@@ -1,6 +1,6 @@
 <template>
   <div role="status"
-    class="space-y-8 animate-pulse md:space-y-0 md:space-x-8 md:flex md:items-center m-8">
+    class="space-y-8 animate-pulse md:space-y-0 md:space-x-8 md:flex md:items-center">
     <div class="flex items-center justify-center w-full h-48 bg-gray-300 rounded sm:w-96 dark:bg-gray-700">
       <svg class="w-12 h-12 text-gray-200"
         xmlns="http://www.w3.org/2000/svg"

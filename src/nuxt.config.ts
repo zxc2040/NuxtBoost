@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-icon',
   ],
-  css: [
-    '~/assets/css/appbase.css',
-  ],
+  tailwindcss: {
+    cssPath: '~/assets/css/appbase.css',
+  },
 })
